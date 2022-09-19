@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		3D1B748D28D8B141008A841C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B748C28D8B141008A841C /* AppDelegate.swift */; };
-		3D1B748F28D8B141008A841C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B748E28D8B141008A841C /* ViewController.swift */; };
+		3D1B748F28D8B141008A841C /* AmarilloController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B748E28D8B141008A841C /* AmarilloController.swift */; };
 		3D1B749228D8B141008A841C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1B749028D8B141008A841C /* Main.storyboard */; };
 		3D1B749428D8B143008A841C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1B749328D8B143008A841C /* Assets.xcassets */; };
 		3D1B749728D8B143008A841C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1B749528D8B143008A841C /* LaunchScreen.storyboard */; };
+		3D1B749F28D8B75B008A841C /* RosaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B749E28D8B75B008A841C /* RosaController.swift */; };
+		3D1B74A128D8C541008A841C /* AzulController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B74A028D8C541008A841C /* AzulController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D1B748928D8B141008A841C /* navegaciòn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "navegaciòn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1B748C28D8B141008A841C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D1B748E28D8B141008A841C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D1B748E28D8B141008A841C /* AmarilloController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmarilloController.swift; sourceTree = "<group>"; };
 		3D1B749128D8B141008A841C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D1B749328D8B143008A841C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D1B749628D8B143008A841C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D1B749828D8B143008A841C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D1B749E28D8B75B008A841C /* RosaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosaController.swift; sourceTree = "<group>"; };
+		3D1B74A028D8C541008A841C /* AzulController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzulController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				3D1B748C28D8B141008A841C /* AppDelegate.swift */,
-				3D1B748E28D8B141008A841C /* ViewController.swift */,
+				3D1B748E28D8B141008A841C /* AmarilloController.swift */,
+				3D1B749E28D8B75B008A841C /* RosaController.swift */,
+				3D1B74A028D8C541008A841C /* AzulController.swift */,
 				3D1B749028D8B141008A841C /* Main.storyboard */,
 				3D1B749328D8B143008A841C /* Assets.xcassets */,
 				3D1B749528D8B143008A841C /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D1B748F28D8B141008A841C /* ViewController.swift in Sources */,
+				3D1B748F28D8B141008A841C /* AmarilloController.swift in Sources */,
+				3D1B749F28D8B75B008A841C /* RosaController.swift in Sources */,
 				3D1B748D28D8B141008A841C /* AppDelegate.swift in Sources */,
+				3D1B74A128D8C541008A841C /* AzulController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
